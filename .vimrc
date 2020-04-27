@@ -56,6 +56,8 @@ set incsearch
 "search as characters are entered
 set hlsearch
 "highlight matches
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+" <Ctrl-l> redraws the screen and removes any search highlighting.
 
 
 "set cursorline
