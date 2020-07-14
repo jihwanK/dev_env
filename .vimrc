@@ -1,3 +1,29 @@
+"=======
+"VUNDLE
+"=======
+
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'Valloric/YouCompleteMe'
+"check the syntax
+Plugin 'vim-syntastic/syntastic'
+Plugin 'nvie/vim-flake8'
+"super search
+Plugin 'kien/ctrlp.vim'
+
+call vundle#end()
+filetype plugin indent on
+
+let python_highlight_all=1
+syntax on
+
+
 "==========
 "UI CONFIG
 "==========
